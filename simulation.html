@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Telkes Energia Solar - Simulador</title>
+        <meta name="description" content="Business, Consulting, Finance, Insurance, Startup and Technology">
+        <meta name="subject" content="Business, Consulting, Finance, Insurance, Startup and Technology">
+        <meta name="author" content="Codings">
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/form.css">
+        <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/icons-fa.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <meta name="theme-color" content="#218fbe">
+        <style>
+            :root {
+                --header-bg-color: #f9f9f9;
+                --nav-item-color: #000000;
+                --hero-bg-color: #f9f9f9;
+                
+                --section-1-bg-color: #eef4ed;
+                --section-2-bg-color: #111117;
+                --section-3-bg-color: #ffffff;
+                --section-4-bg-color: #111117;
+                --section-4-bg-image: url('../../assets/images/bg-7.jpg');
+                --section-5-bg-color: #111117;
+                --section-6-bg-color: #ffffff;
+
+                --footer-bg-color: #111117;
+            }
+        </style>
+    </head>
+    <body class="home">
+        
+        <!-- Preloader -->
+        <div id="preloader" data-timeout="2000" class="odd preloader counter">
+            <img src="assets/images/logo.png" alt="" width="300">
+            <div data-aos="fade-up" data-aos-delay="500" class="row justify-content-center text-center items">
+            </div>
+        </div> 
+
+        <!-- Header -->
+        <header id="header">
+
+            <!-- Top Navbar -->
+            <nav class="navbar navbar-expand top">
+                <div class="half"></div>
+                <div class="container header">
+
+                    <!-- Navbar Items [left] -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Seg à Sexta das 9:00 ás 18:00 | Sáb das 9:00 ás 12:00</a>
+                            
+                        </li>
+                    </ul>
+
+                    <!-- Nav holder -->
+                    <div class="ml-auto"></div>
+
+                    <!-- Navbar Items [right] -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>(81) 9 9952-2277</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>atendimento@telkes.com.br</a>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar Icons -->
+                    <ul class="navbar-nav icons">
+                        <li class="nav-item social">
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item social">
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item social">
+                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand navbar-fixed sub">
+                <div class="container header">
+
+                    <!-- Navbar Brand--> 
+                    <a class="navbar-brand light" href="#">
+                        <img src="assets/images/logo.png" alt="TELKES">
+                    </a>
+                    <!-- Nav holder -->
+                    <div class="ml-auto"></div>
+
+                    <!-- Navbar Items -->
+                    
+                    <ul class="navbar-nav items">
+                        <li class="nav-item">
+                            <a href="#header" class="smooth-anchor nav-link">Ínicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="smooth-anchor nav-link">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="smooth-anchor nav-link">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="smooth-anchor nav-link">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#funfacts" class="smooth-anchor nav-link">F.A.Q</a>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar Toggle -->
+                    <ul class="navbar-nav toggle">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                                <i class="icon-menu m-0"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar Action -->
+                    <ul class="navbar-nav action" style="margin-left: 100px;">
+                        <li class="nav-item ml-3">
+                            <a href="simulation.html" class="smooth-anchor btn ml-lg-auto primary-button" style="background-color: #0c344e; color: #fff;">Simulador &nbsp</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section id="slide" class="hero p-0 simulation">
+            <div class="swiper-container full-slider simulation animation slider-h-100 slider-h-auto">
+ 
+                <!-- Media -->
+                <div class="parallax-x-bg simulation"></div> <!-- bg -->
+                <!-- data-swiper-parallax="-50%">-->
+                <div class="swiper-wrapper">
+                    <!-- Item 1 -->
+                    <div class="swiper-slide slide-center">
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex justify-content-start inner">
+                                <div class="left text-left">
+
+                                    <!-- Content --> 
+                                    <p data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text" style="font-size: 50px;">Faça uma<br>
+                                        <span class="featured"><span style="color: #57b33e;">Simulação</span></span></p> 
+                                        <p data-aos="zoom-in" data-aos-delay="2400" class="description" style="font-weight: 500; color: #000;">
+                                            Use nosso simulador para fazer um orçamento <br> comparativo de todos os planos.
+                                        
+
+                                    <!-- Action -->
+                                    <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                        <div class="d-sm-inline-flex">
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button" style="font-weight: 500;">Fale conosco</a>
+                                            <a href="#services" class="smooth-anchor ml-sm-4 mt-4 btn outline-button" style="font-weight: 500;">Serviços</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <center>
+            <h2 class="mb-0">Use nosso <span class="featured"><span>Simulador</span></span></h2>
+            <p>Comparativo de todos os planos</p>
+        </center>
+        <div class="customers-all">
+            <table id="customers">
+              <tr>
+                <th>&nbsp; #</th>
+                <th>Período</th>
+              </tr>
+              <tr>
+                <td>
+                    <input required type="checkbox" name="checkbox" id="">
+                </td>
+                <td>
+                    manhã e tarde
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <input required type="checkbox" name="checkbox" id="">
+                </td>
+                <td>noite</td>
+              </tr>
+                <tr>
+                    <td>
+                        valor aproximado da sua conta
+                    </td>
+                    <td>
+                        <input type="range" min="1" max="100" value="50" class="sliderange" id="myRange">
+                        <span id="demo"></span>
+                    </td>
+                </tr>
+            </table>
+                <button class="btn-next" type="submit">Avançar</button>
+          </div> <!-- customers all -->
+        
+          <center>
+            <h2 class="mb-0">Faça o  <span class="featured"><span>Cadastro</span></span></h2>
+            <p>Confira os dados antes de enviar</p>
+        </center>
+          <!-- personal info  -->
+          <div class="customers-allx">
+            <table id="customers">
+              <th>Dados pessoais</th>
+        
+                  <form class="form">
+                    <tr>
+                      <td>
+                    <div class="input-group">
+                        <input class="input-group__input" type="text" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                        <label class="input-group__label" for="username">Nome</label>
+                    </div>
+                    </td> 
+                    </tr>
+                      <tr>
+                      <td>
+                        <div class="input-group">
+                      <input class="input-group__input" type="email" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                      <label class="input-group__label" for="username">E-mail</label>
+                    </div>
+                </td> 
+            </tr>
+                    <tr>
+                        <td>
+                        <div class="input-group">
+                          <input class="input-group__input" type="date" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                          <label class="input-group__label" for="username">Data de Nascimento</label>
+                      </div>
+                    </td> 
+                </tr>
+                      <tr>
+                        <td>
+                        <div class="input-group">
+                          <input class="input-group__input" type="number" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                          <label class="input-group__label" for="username">Celular</label>
+                      </div>
+                    </td> 
+                </tr>
+                      <tr>
+                        <td>
+                      <div class="input-group">
+                        <input class="input-group__input" type="number" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                        <label class="input-group__label" for="username">CPF</label>
+                    </div>
+                </td> 
+            </tr>
+        
+                    <tr>
+                        <td>
+                      <div class="input-group">
+                        <input class="input-group__input" type="number" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                        <label class="input-group__label" for="username">CNPJ</label>
+                    </div>
+                </td> 
+            </tr>
+                    <tr>
+                        <td>
+                 
+                      <div class="input-group">
+                        <input class="input-group__input" type="number" placeholder="&nbsp;" name="username" id="username" autocomplete="off" required />
+                        <label class="input-group__label" for="username">Chave pix</label>
+                      </div>
+                      </td> </tr>
+                  </form> </table>
+                  <br> <br>
+                    <button class="btn-finish" type="submit">Finalizar</button>
+                    <a href="#" class="btn-back" type="submit">Voltar</a>
+                    <br> <br> 
+                   </div>
+
+
+                   <section id="about" class="section-2 odd highlights image-right featured">
+                   <center> <h2 class="mb-0">Nossos <span class="featured"><span style="color: #00a6a6;">planos</span></span></h2>
+                    <p>Confira nossos planos logo abaixo</p>
+                </center>
+                   <br> <br> <br> <br> 
+                   <ul class="pricingTable-firstTable">
+                    <li class="pricingTable-firstTable_table">
+                      <h1 class="pricingTable-firstTable_table__header">A Prazo</h1>
+                      <p class="pricingTable-firstTable_table__pricing"><span>R$ </span><span>100,00</span><span>mensal</span></p>
+                      <ul class="pricingTable-firstTable_table__options">
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                      </ul>
+                      <button class="pricingTable-firstTable_table__getstart">Prosseguir</button>
+                    </li><li class="pricingTable-firstTable_table">
+                      <h1 class="pricingTable-firstTable_table__header">À Vista</h1>
+                      <p class="pricingTable-firstTable_table__pricing"><span>R$ </span><span>500,00</span><span>mensal</span></p>
+                      <ul class="pricingTable-firstTable_table__options">
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                      </ul>
+                      <button class="pricingTable-firstTable_table__getstart">Prosseguir</button>
+                    </li>
+                </div></section>
+
+        <!-- Contact -->
+        <section id="contact" class="section-6 form contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 pr-md-5 align-self-center text">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <span class="pre-title m-0">Envie uma mensagem</span>
+                                <h2>Entre em <span class="featured"><span>contato</span></span></h2>
+                                <p>Responderemos à sua mensagem o mais breve possível.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 p-0">
+                                <form action="php/form.php" id="nexgen-simple-form" class="nexgen-simple-form">
+                                    <input type="hidden" name="section" value="nexgen_form">
+
+                                    <input type="hidden" name="reCAPTCHA">
+                                    <!-- Remove this field if you want to disable recaptcha -->
+
+                                    <div class="row form-group-margin">
+                                        <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                            <input type="text" name="name" class="form-control field-name" placeholder="Nome">
+                                        </div>
+                                        <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                            <input type="email" name="email" class="form-control field-email" placeholder="E-mail">
+                                        </div>
+                                        <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                            <input type="text" name="phone" class="form-control field-phone" placeholder="Telefone">
+                                        </div>
+                        
+                                        <div class="col-12 m-0 p-2 input-group">
+                                            <textarea name="message" class="form-control field-message" placeholder="Sua mensagem"></textarea>
+                                        </div>
+                                        <div class="col-12 col-12 m-0 p-2 input-group">
+                                            <span class="form-alert"></span>
+                                        </div>
+                                        <div class="col-12 input-group m-0 p-2">
+                                            <a class="btn primary-button" style="color: #111117;">Enviar</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>                        
+                    </div>
+                   
+                    <div class="col-12 col-md-4">
+                        <div class="contacts">
+                            <h4>Fale conosco</h4>
+                            <p>Entre em contato por telefone, e-mail ou venha até nós.</p>
+                           
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="fas fa-phone-alt mr-2"></i>
+                                        <span style="font-size: 14px;">(81) 9 9952-2277</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="fas fa-envelope mr-2"></i>
+                                        <span style="font-size: 14px;">atendimento@telkes.com.br</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="fas fa-map-marker-alt mr-2"></i>
+                                        <span style="font-size: 14px;"> Estácio Coimbra, 36 Centro, Palmares/PE</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="mt-2 btn outline-button" data-toggle="modal" data-target="#map">Veja no Mapa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+      <!-- Footer -->
+      <footer>
+
+        <!-- Copyright -->
+        <section id="copyright" class="p-3 odd copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 p-3 text-center text-lg-left">
+                        <p style="display: flex;"> 
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f" style="font-size: 30px; color: #babdca;"></i></a> 
+                            <a href="#" class="nav-link"><i class="fab fa-twitter" style="font-size: 30px; color: #babdca;"></i></a>
+                            <a href="#" class="nav-link pr-0"><i class="fab fa-instagram" style="font-size: 30px; color: #babdca;"></i></a>
+                        </p>
+                        <!--
+                            Suggestion: Replace the text above with a description of your website.
+                         -->
+                    </div>
+                    <div class="col-12 col-md-6 p-3 text-center text-lg-right">
+                        <p>© 2023 TELKES Powered by <a href="https://gamecode.com.br/" target="_blank">gamecode</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+            <a href="#" class="button-top"></a>
+
+        <!-- Scroll [to top] -->
+        <div id="scroll-to-top" class="scroll-to-top">
+            <a href="#header" class="smooth-anchor">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>        
+        
+        <!-- ==============================================
+        Google reCAPTCHA // Put your site key here
+        =============================================== -->
+        <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+
+        <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+              output.innerHTML = this.value;
+            }
+        </script>
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/vendor/jquery.easing.min.js"></script>
+        <script src="assets/js/vendor/jquery.inview.min.js"></script>
+        <script src="assets/js/vendor/popper.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/ponyfill.min.js"></script>
+        <script src="assets/js/vendor/slider.min.js"></script>
+        <script src="assets/js/vendor/animation.min.js"></script>
+        <script src="assets/js/vendor/progress-radial.min.js"></script>
+        <script src="assets/js/vendor/bricklayer.min.js"></script>
+        <script src="assets/js/vendor/gallery.min.js"></script>
+        <script src="assets/js/vendor/shuffle.min.js"></script>
+        <script src="assets/js/vendor/cookie-notice.min.js"></script>
+        <script src="assets/js/vendor/particles.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/faq.js"></script>
+        <script src="assets/js/darkmode.js"></script>
+        <script src="assets/js/rangeslide.js"></script>
+        <script src="assets/js/form.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        
+        <!-- ==============================================
+        Particles
+        =============================================== -->
+<script> // range slide
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+</script>
+
+    </body>
+</html>
